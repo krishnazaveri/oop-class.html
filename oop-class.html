@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Class</title>
+</head>
+<body>
+
+    <script>
+        class bank
+        {
+            details(pin,bal)
+            {
+                var atmpin =pin;
+                var balance=bal;
+                var ifsc="hdfc00000";
+                var bankname="HDFC";
+
+
+                console.log(atmpin);
+                console.log(balance)
+            }
+
+            static abc(){
+                console.log("Bank database...!");
+            }
+
+            
+        }
+
+        const a=new bank;
+        const b=new bank;
+
+
+        bank.abc();
+
+        a.details(1212,33333);
+        b.details(1111,33333);
+        
+    </script>
+    
+</body>
+</html>
